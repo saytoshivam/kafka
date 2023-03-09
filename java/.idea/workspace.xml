@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4e487469-d417-4bd0-b2a2-8cd43be3f69f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Documentation/Kafka-Notes.pages" beforeDir="false" afterPath="$PROJECT_DIR$/../Documentation/Kafka-Notes.pages" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code/0-start-kafka/linux/linux-setup.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../cli/0-start-kafka/linux/linux-setup.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code/0-start-kafka/linux/linux-start-kafka-kraft.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../cli/0-start-kafka/linux/linux-start-kafka-kraft.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code/0-start-kafka/linux/linux-start-kafka-with-zookeeper.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../cli/0-start-kafka/linux/linux-start-kafka-with-zookeeper.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code/0-start-kafka/macosx/macosx-setup-brew.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../cli/0-start-kafka/macosx/macosx-setup-brew.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code/0-start-kafka/macosx/macosx-setup.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../cli/0-start-kafka/macosx/macosx-setup.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code/0-start-kafka/macosx/macosx-start-kafka-kraft.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../cli/0-start-kafka/macosx/macosx-start-kafka-kraft.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code/0-start-kafka/macosx/macosx-start-kafka-with-zookeeper.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../cli/0-start-kafka/macosx/macosx-start-kafka-with-zookeeper.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code/0-start-kafka/windows/non-wsl2-NOT-RECOMMENDED/windows-setup.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../cli/0-start-kafka/windows/non-wsl2-NOT-RECOMMENDED/windows-setup.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code/0-start-kafka/windows/non-wsl2-NOT-RECOMMENDED/windows-start-kafka-with-zookeeper.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../cli/0-start-kafka/windows/non-wsl2-NOT-RECOMMENDED/windows-start-kafka-with-zookeeper.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code/0-start-kafka/windows/windows-wsl2-setup.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../cli/0-start-kafka/windows/windows-wsl2-setup.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code/0-start-kafka/windows/windows-wsl2-start-kafka-kraft.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../cli/0-start-kafka/windows/windows-wsl2-start-kafka-kraft.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code/0-start-kafka/windows/windows-wsl2-start-kafka-with-zookeeper.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../cli/0-start-kafka/windows/windows-wsl2-start-kafka-with-zookeeper.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code/1-kafka-cli/0-kafka-topics.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../cli/1-kafka-cli/0-kafka-topics.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code/1-kafka-cli/1-kafka-console-producer.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../cli/1-kafka-cli/1-kafka-console-producer.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code/1-kafka-cli/2-kafka-console-consumer.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../cli/1-kafka-cli/2-kafka-console-consumer.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code/1-kafka-cli/3-kafka-console-consumer-in-groups.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../cli/1-kafka-cli/3-kafka-console-consumer-in-groups.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code/1-kafka-cli/4-kafka-consumer-groups.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../cli/1-kafka-cli/4-kafka-consumer-groups.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code/1-kafka-cli/5-reset-offsets.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../cli/1-kafka-cli/5-reset-offsets.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code/2-kafka-extended/0-kafka-connect-wikimedia-sample.json" beforeDir="false" afterPath="$PROJECT_DIR$/../cli/2-kafka-extended/0-kafka-connect-wikimedia-sample.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code/2-kafka-extended/0-kafka-connect-wikimedia.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../cli/2-kafka-extended/0-kafka-connect-wikimedia.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code/2-kafka-extended/1-kafka-connect-elasticsearch.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../cli/2-kafka-extended/1-kafka-connect-elasticsearch.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code/2-kafka-extended/README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../cli/2-kafka-extended/README.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code/2-kafka-extended/config/connect-standalone.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../cli/2-kafka-extended/config/connect-standalone.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code/2-kafka-extended/config/elasticsearch.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../cli/2-kafka-extended/config/elasticsearch.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code/2-kafka-extended/config/wikimedia.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../cli/2-kafka-extended/config/wikimedia.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code/2-kafka-extended/schema-registry/producer-v1.json" beforeDir="false" afterPath="$PROJECT_DIR$/../cli/2-kafka-extended/schema-registry/producer-v1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code/2-kafka-extended/schema-registry/schema-v1.json" beforeDir="false" afterPath="$PROJECT_DIR$/../cli/2-kafka-extended/schema-registry/schema-v1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code/2-kafka-extended/schema-registry/schema-v2.json" beforeDir="false" afterPath="$PROJECT_DIR$/../cli/2-kafka-extended/schema-registry/schema-v2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code/3-kafka-topic-configurations/0-topic-configurations.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../cli/3-kafka-topic-configurations/0-topic-configurations.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code/3-kafka-topic-configurations/1-log-compaction.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../cli/3-kafka-topic-configurations/1-log-compaction.sh" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2MlNrqpoEqjf4cbBNGnA5NYq5lA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4e487469-d417-4bd0-b2a2-8cd43be3f69f" name="Changes" comment="" />
+      <created>1678338412367</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1678338412367</updated>
+    </task>
+    <servers />
+  </component>
+</project>
