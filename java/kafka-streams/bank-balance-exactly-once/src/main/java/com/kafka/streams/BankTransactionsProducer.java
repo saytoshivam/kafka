@@ -1,4 +1,4 @@
-package com.github.simplesteph.udemy.kafka.streams;
+package com.kafka.streams;
 
 import com.fasterxml.jackson.databind.node.JsonNodeFactory;
 import com.fasterxml.jackson.databind.node.ObjectNode;
