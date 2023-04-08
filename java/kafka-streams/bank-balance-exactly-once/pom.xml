@@ -79,7 +79,7 @@
                     <archive>
                         <manifest>
                             <addClasspath>true</addClasspath>
-                            <mainClass>com.github.simplesteph.udemy.kafka.streams.BankBalanceExactlyOnce</mainClass>
+                            <mainClass>com.kafka.streams.BankBalanceExactlyOnce</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
