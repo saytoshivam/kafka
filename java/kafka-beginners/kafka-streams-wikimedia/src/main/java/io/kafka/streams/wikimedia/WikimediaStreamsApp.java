@@ -3,6 +3,7 @@ package io.kafka.streams.wikimedia;
 import io.kafka.streams.wikimedia.processor.BotCountStreamBuilder;
 import io.kafka.streams.wikimedia.processor.EventCountTimeseriesBuilder;
 import io.kafka.streams.wikimedia.processor.WebsiteCountStreamBuilder;
+import org.apache.kafka.common.config.SaslConfigs;
 import org.apache.kafka.common.serialization.Serdes;
 import org.apache.kafka.streams.KafkaStreams;
 import org.apache.kafka.streams.StreamsBuilder;
@@ -22,7 +23,12 @@ public class WikimediaStreamsApp {
     static {
         properties = new Properties();
         properties.put(StreamsConfig.APPLICATION_ID_CONFIG, "wikimedia-stats-application");
-        properties.put(StreamsConfig.BOOTSTRAP_SERVERS_CONFIG, "127.0.0.1:9092");
+        properties.setProperty("bootstrap.servers", "cluster.playground.cdkt.io:9092");
+        properties.setProperty("security.protocol", "SASL_SSL");
+        properties.setProperty(SaslConfigs.SASL_JAAS_CONFIG, "org.apache.kafka.common.security.plain.PlainLoginModule required username='shivaay-it' password='eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2F1dGguY29uZHVrdG9yLmlvIiwic291cmNlQXBwbGljYXRpb24iOiJhZG1pbiIsInVzZXJNYWlsIjpudWxsLCJwYXlsb2FkIjp7InZhbGlkRm9yVXNlcm5hbWUiOiJzaGl2YWF5LWl0Iiwib3JnYW5pemF0aW9uSWQiOjcxMzgwLCJ1c2VySWQiOm51bGwsImZvckV4cGlyYXRpb25DaGVjayI6ImFlYTlkZjY2LWU4M2YtNDVlZC04ZTQ5LTE3YjQ0ZDAwODA0MCJ9fQ.afbo4K-QM1X7BaEUkHN9-YooKORipTYYZSp3KiTwXIE';\n");
+        properties.setProperty("sasl.mechanism", "PLAIN");
+
+        // properties.put(StreamsConfig.BOOTSTRAP_SERVERS_CONFIG, "127.0.0.1:9092");
         properties.put(StreamsConfig.DEFAULT_KEY_SERDE_CLASS_CONFIG, Serdes.String().getClass());
         properties.put(StreamsConfig.DEFAULT_VALUE_SERDE_CLASS_CONFIG, Serdes.String().getClass());
     }

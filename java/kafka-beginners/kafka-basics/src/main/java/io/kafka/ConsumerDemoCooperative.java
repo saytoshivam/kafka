@@ -4,6 +4,7 @@ import org.apache.kafka.clients.consumer.ConsumerRecord;
 import org.apache.kafka.clients.consumer.ConsumerRecords;
 import org.apache.kafka.clients.consumer.CooperativeStickyAssignor;
 import org.apache.kafka.clients.consumer.KafkaConsumer;
+import org.apache.kafka.common.config.SaslConfigs;
 import org.apache.kafka.common.errors.WakeupException;
 import org.apache.kafka.common.serialization.StringDeserializer;
 import org.slf4j.Logger;
@@ -32,7 +33,10 @@ public class ConsumerDemoCooperative {
         // connect to Conduktor Playground
         properties.setProperty("bootstrap.servers", "cluster.playground.cdkt.io:9092");
         properties.setProperty("security.protocol", "SASL_SSL");
-        properties.setProperty("sasl.jaas.config", "org.apache.kafka.common.security.plain.PlainLoginModule required username=\"your-username\" password=\"your-password\";");
+        properties.setProperty(SaslConfigs.SASL_JAAS_CONFIG, "org.apache.kafka.common.security.plain.PlainLoginModule required username='shivaay-it' password='eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2F1dGguY29uZHVrdG9yLmlvIiwic291cmNlQXBwbGljYXRpb24iOiJhZG1pbiIsInVzZXJNYWlsIjpudWxsLCJwYXlsb2FkIjp7InZhbGlkRm9yVXNlcm5hbWUiOiJzaGl2YWF5LWl0Iiwib3JnYW5pemF0aW9uSWQiOjcxMzgwLCJ1c2VySWQiOm51bGwsImZvckV4cGlyYXRpb25DaGVjayI6ImFlYTlkZjY2LWU4M2YtNDVlZC04ZTQ5LTE3YjQ0ZDAwODA0MCJ9fQ.afbo4K-QM1X7BaEUkHN9-YooKORipTYYZSp3KiTwXIE';\n");
+
+       // properties.setProperty(SaslConfigs.SASL_JAAS_CONFIG, "org.apache.kafka.common.security.plain.PlainLoginModule required username=\"6hiWlwa3a3RibZIBq2lNEP\" password=\"8a575166-4c7d-4900-ad2c-f2b4a510f0ce\";");
+       // properties.setProperty("sasl.jaas.config", "org.apache.kafka.common.security.plain.PlainLoginModule required username=\"your-username\" password=\"your-password\";");
         properties.setProperty("sasl.mechanism", "PLAIN");
 
         // create consumer configs

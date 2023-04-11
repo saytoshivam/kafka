@@ -30,7 +30,9 @@ public class ConsumerDemoRebalanceListener {
 //        properties.setProperty(CommonClientConfigs.BOOTSTRAP_SERVERS_CONFIG, "127.0.0.1:9092");
         properties.setProperty(CommonClientConfigs.BOOTSTRAP_SERVERS_CONFIG, "cluster.playground.cdkt.io:9092");
         properties.setProperty(CommonClientConfigs.SECURITY_PROTOCOL_CONFIG, "SASL_SSL");
-        properties.setProperty(SaslConfigs.SASL_JAAS_CONFIG, "org.apache.kafka.common.security.plain.PlainLoginModule required username=\"6hiWlwa3a3RibZIBq2lNEP\" password=\"8a575166-4c7d-4900-ad2c-f2b4a510f0ce\";");
+        properties.setProperty(SaslConfigs.SASL_JAAS_CONFIG, "org.apache.kafka.common.security.plain.PlainLoginModule required username='shivaay-it' password='eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2F1dGguY29uZHVrdG9yLmlvIiwic291cmNlQXBwbGljYXRpb24iOiJhZG1pbiIsInVzZXJNYWlsIjpudWxsLCJwYXlsb2FkIjp7InZhbGlkRm9yVXNlcm5hbWUiOiJzaGl2YWF5LWl0Iiwib3JnYW5pemF0aW9uSWQiOjcxMzgwLCJ1c2VySWQiOm51bGwsImZvckV4cGlyYXRpb25DaGVjayI6ImFlYTlkZjY2LWU4M2YtNDVlZC04ZTQ5LTE3YjQ0ZDAwODA0MCJ9fQ.afbo4K-QM1X7BaEUkHN9-YooKORipTYYZSp3KiTwXIE';\n");
+
+        //properties.setProperty(SaslConfigs.SASL_JAAS_CONFIG, "org.apache.kafka.common.security.plain.PlainLoginModule required username=\"6hiWlwa3a3RibZIBq2lNEP\" password=\"8a575166-4c7d-4900-ad2c-f2b4a510f0ce\";");
         properties.setProperty(SaslConfigs.SASL_MECHANISM, "PLAIN");
         properties.setProperty(ConsumerConfig.KEY_DESERIALIZER_CLASS_CONFIG, StringDeserializer.class.getName());
         properties.setProperty(ConsumerConfig.VALUE_DESERIALIZER_CLASS_CONFIG, StringDeserializer.class.getName());
